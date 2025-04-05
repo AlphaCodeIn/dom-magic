@@ -85,11 +85,29 @@ body {
   height: 20px;
 }
 #controls button {
-  color: #fff;
+  color: gold;
   font-size: 20px;
   font-weight: 500;
   margin-right: 60px;
   border: none;
   cursor: pointer;
   background: none;
+
+}
+
+
+/* ---------- */
+#cursore{
+    pointer-events: none;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.511);
+    transition: all linear 0.2s;
+    transform: scale(1);
+    z-index: 1;
+}
+#cursore:active{
+    transform: scale(0.9);
 }
