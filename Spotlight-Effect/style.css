@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-image: url(https://blog.stockvault.net/wp-content/uploads/2013/10/Cave-10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    cursor: none;
+}
+
+#main h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 10vw;
+    text-shadow: 2px 2px 5px #111111;
+}
+
+#light {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle 200px at 50% 50%, transparent 10%, rgba(0, 0, 0, 0.955));
+    pointer-events: none;
+}
